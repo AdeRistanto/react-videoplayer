@@ -8,7 +8,8 @@ const Video = () => {
       width='480px'
       height='240px'
       controls
-      url='https://www.youtube.com/watch?v=UK1zJLNHWrE'
+      // url='https://www.youtube.com/watch?v=UK1zJLNHWrE'
+      url='https://media.w3.org/2010/05/sintel/trailer.mp4'
       onReady={() => alert("onReady!!")}
       onStart={() => alert("onStart!!")}
       onPause={() => alert("onPause!!")}
